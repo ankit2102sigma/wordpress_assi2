@@ -11,5 +11,61 @@ Updated: 2023-03-23 10:14:15
 
 */
 
+.foogallery .fg-image-wrap {
+    display: block;
+    position: relative;
+    max-height: 163px;
+}
+
+header.entry-header .entry-title {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    font-size: 2rem;
+}
+@media (min-width: 782px){
+.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0px 40px 0px 10px;
+}
+}
+.ast-page-builder-template .entry-content[ast-blocks-layout] > .inherit-container-width > *, .ast-page-builder-template .entry-content[ast-blocks-layout] > * > *, .entry-content[ast-blocks-layout] > .wp-block-cover .wp-block-cover__inner-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 200px;
+}
+block-cover-image h3:not(.has-text-color), .wp-block-cover-image h4:not(.has-text-color), .wp-block-cover-image h5:not(.has-text-color), .wp-block-cover-image h6:not(.has-text-color), .wp-block-cover-image p:not(.has-text-color), .wp-block-cover h1:not(.has-text-color), .wp-block-cover h2:not(.has-text-color), .wp-block-cover h3:not(.has-text-color), .wp-block-cover h4:not(.has-text-color), .wp-block-cover h5:not(.has-text-color), .wp-block-cover h6:not(.has-text-color), .wp-block-cover p:not(.has-text-color) {
+    color: inherit;
+    left: 151px;
+    position: absolute;
+}
+.ast-primary-header-bar {
+    background-color: black;
+}
+
+.ast-builder-menu-1 .menu-item.current-menu-item > .menu-link, .ast-builder-menu-1 .inline-on-mobile .menu-item.current-menu-item > .ast-menu-toggle, .ast-builder-menu-1 .current-menu-ancestor > .menu-link {
+    /* color: var(--ast-global-color-1); */
+    color: white;
+}
+.ast-builder-menu-1 .menu-item > .menu-link {
+    color: white;
+}
+.site-title a, .site-title a:focus, .site-title a:hover, .site-title a:visited {
+    color: white;
+}
+.wp-block-preformatted.has-background {
+    /* padding: 1.25em 2.375em; */
+    padding: 16px;
+}
+.foogallery.fg-loaded-drop .fg-loaded .fg-item-inner, .foogallery.fg-loaded-fade-in .fg-loaded .fg-item-inner, .foogallery.fg-loaded-flip .fg-loaded .fg-item-inner, .foogallery.fg-loaded-fly .fg-loaded .fg-item-inner, .foogallery.fg-loaded-scale-up .fg-loaded .fg-item-inner, .foogallery.fg-loaded-slide-down .fg-loaded .fg-item-inner, .foogallery.fg-loaded-slide-left .fg-loaded .fg-item-inner, .foogallery.fg-loaded-slide-right .fg-loaded .fg-item-inner, .foogallery.fg-loaded-slide-up .fg-loaded .fg-item-inner, .foogallery.fg-loaded-swing-down .fg-loaded .fg-item-inner {
+    transition-timing-function: ease;
+    transition-duration: 650ms;
+    height: 288px;
+}
+
+
+
+
 
 

@@ -1,9 +1,6 @@
 <?php
-// Exit if accessed directly
-if ( !defined( 'ABSPATH' ) ) exit;
 
-// BEGIN ENQUEUE PARENT ACTION
-// AUTO GENERATED - Do not modify or remove comment markers above or below:
+if ( !defined( 'ABSPATH' ) ) exit;
 
 if ( !function_exists( 'chld_thm_cfg_locale_css' ) ):
     function chld_thm_cfg_locale_css( $uri ){
@@ -21,4 +18,4 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
-// END ENQUEUE PARENT ACTION
+
